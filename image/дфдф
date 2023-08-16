@@ -1,0 +1,8 @@
+.mess{
+    background-image: url(./image/Group\ 17.svg);
+    background-repeat: no-repeat;
+    width: 697px;
+    height: 649px;
+    position: relative;
+    z-index: 10;
+}

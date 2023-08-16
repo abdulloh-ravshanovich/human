@@ -1,0 +1,111 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    padding: 20px 165px;
+    width: 1440px;
+}
+.header-inner{
+    display: flex;
+    height: 40px;
+}
+.header-logo{
+    margin-top: 10px;
+}
+.header-list{
+    display: flex;
+    gap: 26px;
+    margin-left: 549px;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.header-item{
+    color: #837D88;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.header-button{
+    width: 146px;
+    height: 40px;
+    border: 1.5px solid #2C2830;
+    background: #FFF;
+    text-decoration: none;
+    margin-left: 33px;
+    vertical-align: middle;
+}
+.button-description{
+    color: #2C2830;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.header-item:first-child{
+    width: 120px;
+}
+.hero{
+    background-image: url(./image/Bitmap.svg);
+    width: 1440px;
+    content: "";
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 600px;
+}
+.hero-title{
+    color: #FFF;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    line-height: 64px; 
+    margin-top: 63px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.stick{
+    margin-top: 85px;
+}
+.hero-desc{
+    width: 540px;
+    height: 84px;
+    color: #FFF;
+    font-family: Karla;
+    line-height: 26px; 
+}
+.hero-button{
+    width: 146px;
+    height: 40px;
+    border: 1.5px solid #ffffff;
+    background: #2D2641;
+    margin-top: 8px;
+    display: inline-block;
+}
+.white{
+    color: #FFF;
+    width: 146px;
+    text-decoration: none;
+}
+.hero-inner{
+    display: flex;
+}
+.photo{
+    background-image: url(./image/Bitmap.png);
+    width: 1004px;
+    height: 670px;
+    background-repeat: no-repeat;
+    content: "";
+    background-position: 140% 95px;
+    position: relative;
+}
